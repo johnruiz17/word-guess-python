@@ -1,0 +1,16 @@
+Ethics Question
+
+Suppose you are a software engineer implementing a website form meant to gather personal data such as names.
+Your boss expresses that your algorithm is only expected to work for ASCII-encoded strings, since supporting Unicode
+would require extra work and time. What would your response be? What representational harms might result from building
+a system that exclusively uses ASCII to represent strings?
+
+There are advantages and disadvantages to using ASCII over Unicode, and vice versa. One of the major advantages of
+ASCII is that it is universally accepted as the standard for string representation in programming languages and computer
+systems, meaning that it will be recognized by any device that the user may be using to access the technology that I
+would be working on in this hypothetical situation. However, while ASCII is more widely used than Unicode, it does not
+have as many characters for different languages than Unicode does. ASCII only supports a relatively small character set
+when compared to Unicode because it only fully supports English, meaning that many languages would not be represented
+in my program. As a result, programming this software only using ASCII would leave room for representational harms
+because users from other countries who do no speak English would not be able to input their name and they would be
+excluded from the services that this platform could potentially offer.
